@@ -1,0 +1,52 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+}
+input:focus {
+    outline: none;
+}
+input:before {
+    outline: none;
+}
+
+/* Ширина скроллбара */
+::-webkit-scrollbar {
+    width: 2px;
+    height: 1px;
+    box-shadow: none;
+}
+
+/* Цвет заливки фона скроллбара */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Цвет скроллбара */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Увеличение размера при наведении на скроллбар */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+}
+
+@media screen and (max-width: 1200px) {
+    #root {
+        margin: 0;
+    }
+}
